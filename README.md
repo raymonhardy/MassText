@@ -1,3 +1,4 @@
+# Header H1
 A mass text message project created with python
 
 It grabs the text.txt file to what what message to send, then loops through the csv file that has each persons phone number. It then does a search on twilio database linking phone number to cell phone service provider. It then grabs the phone number and adds the cell phone service email service provider. For example search for XXXXXXXXX comes back with verizon will then add email service provider XXXXXXXXX@vtext.com.
