@@ -107,9 +107,9 @@ def main():
     listOfNumbers = readCSV()
 
     #runs through the numbers list and then calls sendEmail
-    for j in listOfNumbers:
-        sendEmail(mainEmail, j)
-        print(j)
+    for i in listOfNumbers:
+        sendEmail(mainEmail, i)
+        print(i)
 
     
 main()
