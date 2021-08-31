@@ -1,6 +1,6 @@
 # A mass text message project created with python
 
-It grabs the text.txt file to what what message to send, then loops through the csv file that has each persons phone number. It then does a search on twilio database linking phone number to cell phone service provider. It then grabs the phone number and adds the cell phone service email service provider. For example search for XXXXXXXXX comes back with verizon will then add email service provider XXXXXXXXX@vtext.com.
+This grabs the text.txt file to what what message to send, then loops through the csv file that has each persons phone number. It then does a search on twilio database linking phone number to cell phone service provider. It then grabs the phone number and adds the cell phone service email service provider. For example search for XXXXXXXXX comes back with verizon will then add email service provider XXXXXXXXX@vtext.com.
 
 You will need to create a twilio account. Use an email address to send from. In this case gmail is used. And download the necessary python packages.
 
