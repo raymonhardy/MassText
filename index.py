@@ -24,7 +24,7 @@ def readTextFile():
 # reads the CSV file that is saved by excel returns a list
 def readCSV():
     numbers = []
-    f = open('<CSV File>')
+    f = open('numbers.txt')
     csv_f = csv.reader(f)
     # a for loop that saves each number as a sting in a list
     for row in csv_f:
@@ -108,9 +108,9 @@ def main():
     listOfNumbers = readCSV()
 
     # runs through the numbers list and then calls sendEmail
-    for i in listOfNumbers:
-        sendEmail(mainEmail, i)
-        print(i)
+    # for i in listOfNumbers:
+    #     sendEmail(mainEmail, i)
+    #     print(i)
 
 
 if __name__ == '__main__':
