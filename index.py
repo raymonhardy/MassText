@@ -1,17 +1,18 @@
 
- # Import smtplib for the actual sending function
- # go to C:\Users\raymon.hardy\AppData\Local\Programs\Python\Python36-32\Scripts then:
- # pip install beautifulsoup4, pip install lxml, pip install twilio, pip install phonenumbers
-##import bs4 as bs
-##import urllib.request
-##import phonenumbers
+# Import smtplib for the actual sending function
+# go to C:\Users\raymon.hardy\AppData\Local\Programs\Python\Python36-32\Scripts then:
+# pip install beautifulsoup4, pip install lxml, pip install twilio, pip install phonenumbers
+import re
+import os
+import csv
+import smtplib
+import string
+from twilio.rest import Client
 import sys
 print(sys.path)
-import string, smtplib, csv, os, re
-from twilio.rest import Client
 
 
-#to run file go into terminal. Go the the directory that this file is in and run python index.py
+# to run file go into terminal. Go the the directory that this file is in and run python index.py
 
 # Reads in Text File that contains the text message/ returns the text in a string
 def readTextFile():
@@ -30,9 +31,10 @@ def readCSV():
         numbers.append(row[1])
     f.close()
     return numbers
-    
 
-    #Sends an Email from google server
+    # Sends an Email from google server
+
+
 def sendEmail(From, To):
     newTo = attachEmailProvider(To)
     if(newTo != "reg espression not met " and newTo != "couldn't find carrier"):
@@ -40,7 +42,7 @@ def sendEmail(From, To):
         smtp.ehlo()
         smtp.starttls()
         smtp.login('<email>', '<password>')
-        #gets the string from the text file
+        # gets the string from the text file
         Text = readTextFile()
         # smtp.sendmail(From, newTo , Text)
         smtp.quit()
@@ -48,9 +50,9 @@ def sendEmail(From, To):
         print("couldn't find provider or carrier")
 
 
-#Used to find the carrier number. Costs $0.005 per lookup         
+# Used to find the carrier number. Costs $0.005 per lookup
 def twilio(To):
-    #Your Account Sid and Auth Token from twilio.com/user/account
+    # Your Account Sid and Auth Token from twilio.com/user/account
     account_sid = "<token>"
     auth_token = "<token>"
     client = Client(account_sid, auth_token)
@@ -62,7 +64,7 @@ def twilio(To):
     return (number.carrier['name'])
 
 
-#uses conditional statements to find the carrier and attaches appropriate @ to it    
+# uses conditional statements to find the carrier and attaches appropriate @ to it
 def attachEmailProvider(cTo):
     # regex = r"(\d{3})-(\d{3})-(\d{4})"
     regex = r'.'
@@ -99,19 +101,16 @@ def attachEmailProvider(cTo):
         return("reg espression not met ")
 
 
-
-#Calls each function
+# Calls each function
 def main():
-    ## Can only have 160 characters
+    # Can only have 160 characters
     mainEmail = '<email>'
     listOfNumbers = readCSV()
 
-    #runs through the numbers list and then calls sendEmail
+    # runs through the numbers list and then calls sendEmail
     for i in listOfNumbers:
         sendEmail(mainEmail, i)
         print(i)
 
-    
+
 main()
-
-
