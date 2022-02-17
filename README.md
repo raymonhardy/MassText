@@ -33,4 +33,4 @@ A Mass text message application using Twilio account and a gmail account. Twilio
    - Install twilio
      - pip install twilio
    - Run CMC.py
-   - python3 CMD.py
+     - python3 CMD.py
