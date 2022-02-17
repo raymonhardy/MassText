@@ -47,7 +47,7 @@ A Mass text message application using a free Twilio account and a free gmail acc
 5. Run the Application
 
    - Make sure you have python3 installed
-   - Install Twilio
+   - Install Twilio python package:
      `pip install twilio`
-   - Run CMC.py
+   - Run python application with:
      `python3 CMD.py`
