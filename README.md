@@ -25,6 +25,11 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 
    - Place the list of numbers, each new number will have a new line
 
+   ```
+   801111111
+   801111111
+   ```
+
 4. Text.txt
 
    - Add the text message to send to the recipient/s
