@@ -40,6 +40,10 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 
    - Add the text message to send to the recipient/s
 
+   ```
+    Test Text Message
+   ```
+
 5. Run the Application
 
    - Make sure you have python3 installed
