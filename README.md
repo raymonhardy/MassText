@@ -4,7 +4,10 @@ A Mass text message application using a free Twilio account and a free gmail acc
 
 # SetUp
 
-1. Twilio
+1. Download or Clone the repository
+   `git clone https://github.com/raymonhardy/MassText`
+
+2. Create Twilio Account
 
    - First create a free Twilio account https://www.twilio.com/try-twilio
    - Find your "account sid" and your "authentication token" in the settings in Twilio
@@ -15,7 +18,7 @@ A Mass text message application using a free Twilio account and a free gmail acc
    authentication token
    ```
 
-2. Gmail
+3. Create Gmail Email Account
 
    - Then create a free gmail account https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp
    - Turn off lese secure access within the google settings for the email account. https://support.google.com/accounts/answer/6010255?hl=en
@@ -27,7 +30,7 @@ A Mass text message application using a free Twilio account and a free gmail acc
    password
    ```
 
-3. Numbers.csv
+4. Add numbers into Numbers.csv
 
    - Place the list of numbers, each new number will have a new line
 
@@ -36,7 +39,7 @@ A Mass text message application using a free Twilio account and a free gmail acc
    801111111
    ```
 
-4. Text.txt
+5. Add Text Message into Text.txt
 
    - Add the text message to send to the recipient/s
 
@@ -44,10 +47,10 @@ A Mass text message application using a free Twilio account and a free gmail acc
     Test Text Message
    ```
 
-5. Run the Application
+6. Install Dependencies and Run the Application
 
-   - Make sure you have python3 installed
-   - Install Twilio python package:
+   - Make sure you have the most up-to-date python3 installed
+   - Install the Twilio python package:
      `pip install twilio`
-   - Run python application with:
+   - Run the python application with:
      `python3 CMD.py`
