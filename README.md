@@ -19,5 +19,18 @@ A Mass text message application using Twilio account and a gmail account. Twilio
      - username
      - password
 
-3. Numbers
-   - place the list of numbers
+3. Numbers.csv
+
+   - Place the list of numbers, each new number will have a new line
+
+4. Text.txt
+
+   - Add the text message to send to the recipient/s
+
+5. Run the python file
+
+   - Make sure you have python3 installed
+   - install twilio
+   - pip install twilio
+   - Run CMC.py
+   - python3 CMD.py
