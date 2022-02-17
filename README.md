@@ -7,8 +7,8 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 1. Twilio
 
    - First create a free Twilio accounthttps://www.twilio.com/try-twilio
-     b. Find your "account sid" and your "authentication token" in the settings in Twilio
-     c. Place your "account sid" and "authentication token" into the TwilioCreds.txt text file
+   - Find your "account sid" and your "authentication token" in the settings in Twilio
+   - Place your "account sid" and "authentication token" into the TwilioCreds.txt text file
 
 2. Gmail
    a. Then create a free gmail account https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp
