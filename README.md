@@ -6,7 +6,7 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 
 1. Twilio
 
-   - First create a free Twilio accounthttps://www.twilio.com/try-twilio
+   - First create a free Twilio account https://www.twilio.com/try-twilio
    - Find your "account sid" and your "authentication token" in the settings in Twilio
    - Place your "account sid" and "authentication token" into the TwilioCreds.txt text file
 
@@ -14,7 +14,7 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 
    - Then create a free gmail account https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp
    - Turn off lese secure access within the google settings for the email account. https://support.google.com/accounts/answer/6010255?hl=en
-   - Note the username and password.
+   - Note the username and password
    - Place the username and password into the EmailCreds.txt like below
      - username
      - password
@@ -27,10 +27,10 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 
    - Add the text message to send to the recipient/s
 
-5. Run the python file
+5. Run the Application
 
    - Make sure you have python3 installed
-   - Install twilio
-     - pip install twilio
+   - Install Twilio
+     'pip install twilio'
    - Run CMC.py
      - python3 CMD.py
