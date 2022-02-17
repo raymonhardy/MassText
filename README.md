@@ -4,7 +4,7 @@ A Mass text message application using a free Twilio account and a free gmail acc
 
 # SetUp
 
-1. Download or Clone the repository
+1. Download the zip or Clone the repository
    `git clone https://github.com/raymonhardy/MassText`
 
 2. Create Twilio Account
