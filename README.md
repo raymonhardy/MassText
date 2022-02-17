@@ -11,7 +11,13 @@ A Mass text message application using Twilio account and a gmail account. Twilio
    - Place your "account sid" and "authentication token" into the TwilioCreds.txt text file
 
 2. Gmail
-   a. Then create a free gmail account https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp
-   b.
 
-3. Next
+   - Then create a free gmail account https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp
+   - Turn off lese secure access within the google settings for the email account. https://support.google.com/accounts/answer/6010255?hl=en
+   - Note the username and password.
+   - Place the username and password into the EmailCreds.txt.
+     <username>
+     <password>
+
+3. Numbers
+   - place the list of numbers
