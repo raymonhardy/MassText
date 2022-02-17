@@ -30,7 +30,7 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 5. Run the python file
 
    - Make sure you have python3 installed
-   - install twilio
-   - pip install twilio
+   - Install twilio
+     - pip install twilio
    - Run CMC.py
    - python3 CMD.py
