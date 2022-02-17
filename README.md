@@ -16,8 +16,8 @@ A Mass text message application using Twilio account and a gmail account. Twilio
    - Turn off lese secure access within the google settings for the email account. https://support.google.com/accounts/answer/6010255?hl=en
    - Note the username and password
    - Place the username and password into the EmailCreds.txt like below
-     - username
-     - password
+     `username`
+     `password`
 
 3. Numbers.csv
 
@@ -31,6 +31,6 @@ A Mass text message application using Twilio account and a gmail account. Twilio
 
    - Make sure you have python3 installed
    - Install Twilio
-     'pip install twilio'
+     `pip install twilio`
    - Run CMC.py
-     - python3 CMD.py
+     `python3 CMD.py`
