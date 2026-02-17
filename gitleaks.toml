@@ -1,4 +1,3 @@
-# Example of a custom rule for AWS Access Keys
 # .gitleaks.toml file
 [extend]
 useDefault = true # Extend the default rules
