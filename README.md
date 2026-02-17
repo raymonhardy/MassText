@@ -1,6 +1,12 @@
 # Mass Text Message Python App
 
-A Mass text message application using a free Twilio account and a free gmail account. Twilio is used to grab phone provider. The gmail account is used to send SMS text messages via email. It will save you a little money on Twilio to not use a phone number they create for use and cost per message. Please follow the instructions below to set up. Twilio give you $15 for free to use. Each phone number searched cost $.005 to search.
+This application is a mass text messaging tool built with Python using a free Twilio account and a free Gmail account.
+
+Twilio is used to identify the recipient’s mobile carrier (phone provider). The Gmail account is then used to send SMS messages via email-to-SMS gateways, which can reduce messaging costs by avoiding the per-message fees associated with sending SMS directly through a Twilio phone number.
+
+Twilio provides a $15 free trial credit when you create an account. Carrier lookup requests cost $0.005 per phone number searched.
+
+Please follow the setup instructions below to configure the application.
 
 # SetUp
 
