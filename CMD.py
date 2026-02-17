@@ -6,6 +6,8 @@ from twilio.rest import Client
 import sys
 print(sys.path)
 
+password = Password1234!
+
 # Reads in Text File that contains the text message/ returns the text in a string
 def readTextFile(text_file):
     text_file = open(text_file, "r")
